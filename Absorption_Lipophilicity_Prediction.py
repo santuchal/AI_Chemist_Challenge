@@ -26,6 +26,9 @@ formula = rdMolDescriptors.CalcMolFormula(MolFromSmiles(SMI))
 descriptors = CalcMolDescriptors(mol)
 descriptors_dataframe = pd.DataFrame([list(descriptors.values())], columns= list(descriptors.keys()))
 st.markdown(''':rainbow[ABSORPTION]''')
+
+st.markdown(''':rainbow[Lipophilicity]''')
+
 st.markdown(''':orange[LGBMRegressor]''')
 
 
