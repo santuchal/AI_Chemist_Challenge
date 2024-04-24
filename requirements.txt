@@ -1,0 +1,6 @@
+scikit-learn==1.3.0
+joblib
+gzip
+rdkit==2023.9.5
+lightgbm
+streamlit
